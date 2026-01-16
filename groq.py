@@ -13,7 +13,7 @@ load_dotenv()
 groq_api_key = os.environ['GROQ_API_KEY']
 
 # Connection to the ASTRA DB
-ASTRA_DB_APPLICATION_TOKEN = "AstraCS:mxOZPsEwppSOIXpaFyxJLOFw:8806b6b022eb91ca65c09c2551dc1aef9b7688783fc1b5f78405d6c916b4c154"  # Replace with your actual token
+ASTRA_DB_APPLICATION_TOKEN = "token"  # Replace with your actual token
 ASTRA_DB_ID = "0b1b2d72-aefd-4b4a-abb0-bb0aa6132042"  # Replace with your actual database ID
 
 # Initialize connection to AstraDB
